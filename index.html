@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pablo Castillo | Portfolio</title>
+  <meta name="description" content="Portfolio of Pablo Castillo, looking for a software internship in Germany. Live projects and CV download.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#projects">Skip to projects</a>
+
+  <div class="page">
+
+    <!-- ===== PROFILE (left column) ===== -->
+    <aside class="profile">
+      <div class="photo">
+        <span class="initials" aria-hidden="true">CV photo</span>
+        <img src="assets/CVfoto.png" alt="Portrait of Your Name" width="320" height="400"
+             onerror="this.remove()">
+      </div>
+
+      <h1>Pablo Francisco Castillo Ramírez</h1>
+      <p class="role">Software development student, looking for an internship in Germany</p>
+
+      <div class="about">
+        <p>Computer Science student at Universidad de Monterrey (Mexico), currently on a DAAD-funded exchange at Universität des Saarlandes. Freelance full-stack developer (React, Firebase, Flask, Python, SQL, Kotlin) who has delivered client projects from design to deployment. Seeking a mandatory software development internship  starting March or April 2027.</p>
+      </div>
+
+      <a class="btn" href="assets/CV.pdf" download>Download CV (PDF)</a>
+
+      <ul class="links">
+        <li><a href="mailto:pablocastilloramire5@gmail.com">pablocastilloramire5@gmail.com</a></li>
+        <li><a href="https://github.com/PabloCoRz" rel="noopener">GitHub</a></li>
+        <li><a href="www.linkedin.com/in/pfcr" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </aside>
+
+    <!-- ===== PROJECTS (right column) ===== -->
+    <main id="projects">
+      <h2>Projects</h2>
+      <p class="lead">Two websites I built and published. Both are live and you can open them right now.</p>
+
+      <!-- Project 1 -->
+      <article class="card">
+        <div class="preview preview--yoga">
+          <span class="mark">Yoga con Paui</span>
+          <!-- Optional: add a screenshot at assets/yogaconpaui.jpg and it will replace the colored panel -->
+          <img src="assets/yogaconpaui.jpg" alt="Screenshot of the Yoga con Paui website" onerror="this.remove()">
+        </div>
+        <div class="card-body">
+          <h3>Yoga con Paui</h3>
+          <p class="summary">Website for a yoga teacher in Monterrey, Mexico.</p>
+          <p>Visitors can see the weekly class schedule and upcoming events, check prices for private classes, and book through WhatsApp or Instagram. Linked with the teacher's Google Calendar via API. The site is in Spanish.</p>
+          <p class="role"><strong>My role:</strong> design and development</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>Next.js</li>
+            <li>React</li>
+            <li>Responsive design</li>
+          </ul>
+          <a class="btn" href="https://www.yogaconpaui.com" target="_blank" rel="noopener">Open yogaconpaui.com</a>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="card">
+        <div class="preview preview--rave">
+          <span class="mark">Monterave</span>
+          <!-- Optional: add a screenshot at assets/monterave.jpg and it will replace the colored panel -->
+          <img src="assets/monterave.jpg" alt="Screenshot of the Monterave website" onerror="this.remove()">
+        </div>
+        <div class="card-body">
+          <h3>Monterave</h3>
+          <p class="summary">Web app for ticket sales for rave concert community in Monterrey.</p>
+          <p>An app that presents the Monterave community and its events. Sales and management of tickets using QR codes available with help of STRIPE. Images and content are stored in Firebase. The site is in Spanish.</p>
+          <p class="role"><strong>My role:</strong> design and development</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>React</li>
+            <li>Firebase</li>
+            <li>Ticket platform</li>
+            <li>Stripe</li>
+          </ul>
+          <a class="btn" href="https://monterave.com/" target="_blank" rel="noopener">Open monterave.com</a>
+        </div>
+      </article>
+
+      <!-- To add a project later, copy one <article class="card"> block above. -->
+    </main>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Pablo Francisco Castillo Ramriez</p>
+  </footer>
+</body>
+</html>
